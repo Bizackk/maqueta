@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    
+}
+  
+.container {
+    width: 400px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column; 
+}
+  
+.login-office {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+.form {
+    width: 100%;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+  
+.form h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+  
+.input {
+    margin-bottom: 15px;
+}
+  
+.input input {
+    width: 100%;
+    padding: 10px;
+    border: none; 
+    border-bottom: 1px solid #050398; 
+    border-radius: 0; 
+    box-sizing: border-box;
+}
+  
+  
+.olvidar {
+    margin-bottom: 10px;
+}
+  
+.olvidar p {
+    display: inline;
+    margin-right: 5px;
+}
+  
+.olvidar a {
+    text-decoration: none;
+    color: #0078d4;
+}
+  
+.olvidar a:hover {
+    text-decoration: underline;
+}
+  
+button[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #0078d4;
+    color: #fff;
+    cursor: pointer;
+    
+}
+  
+.opcionesInicio {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #0078d4;
+    color: #000000;
+    cursor: pointer;
+    width: 400px;
+    padding: 19px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+  
+.cosas {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 20px;
+}
+  
+.cosas button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    color: #0078d4;
+    cursor: pointer;
+}
+  
+.cosas button:hover {
+    text-decoration: underline;
+}
+  
